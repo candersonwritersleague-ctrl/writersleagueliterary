@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writers League | Literary Agents Worldwide</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Writers League</h1>
+            <p class="tagline">Literary Agents Worldwide | High-Potential Author Representation</p>
+            <a href="#booking" class="btn-primary">Schedule a Consultation</a>
+        </div>
+    </header>
+
+    <section class="book-showcase">
+        <div class="container">
+            <h2>Featured Successes:Titles Represented</h2>
+        </div>
+        
+        <div class="overflow-container">
+            <div class="book-gallery">
+                
+                <div class="book-gallery-set set-1">
+                    <script>
+                        // Dynamically generate 20 image tags for Set 1
+                        const totalBooks = 20; 
+                        let html1 = '';
+                        for (let i = 1; i <= totalBooks; i++) {
+                            // Ensure your images are named book-1.jpg up to book-20.jpg
+                            html1 += `<img src="book-${i}.jpg" alt="Book Cover ${i}">`;
+                        }
+                        document.write(html1);
+                    </script>
+                </div>
+                
+                <div class="book-gallery-set set-2">
+                    <script>
+                        // Dynamically generate the same 20 image tags for Set 2
+                        const totalBooks2 = 20;
+                        let html2 = '';
+                        for (let i = 1; i <= totalBooks2; i++) {
+                            html2 += `<img src="book-${i}.jpg" alt="Book Cover ${i}">`;
+                        }
+                        document.write(html2);
+                    </script>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2>Our Mission & Partnerships</h2>
+            <p>
+                **Writers League** is a group of Literary agents worldwide. We prioritize authors who have high potential to be acquired by major publishers. Our job is to guide, strategize and represent their book to our partnered Traditional Publishing houses, including Penguin Random House, HarperCollins, Macmillan, Scholastic, and Hachette Book Group. We also actively pursue adoption in movie producers/film makers like Netflix, The Walt Disney Studios, Warner Bros. Entertainment, and Universal Pictures. Furthermore, we are deeply committed to helping authors who have experienced abuse or neglect by their previous publishers, ensuring their work and careers are managed with integrity and respect.
+            </p>
+            
+            <div class="credentials">
+                <div class="badge">
+                    <h3>40+</h3>
+                    <p>Active Authors Represented</p>
+                </div>
+                <div class="badge">
+                    <h3>$15M+</h3>
+                    <p>In Total Author Advances</p>
+                </div>
+                <div class="badge">
+                    <h3>85%</h3>
+                    <p>Major Publisher Success Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Core Expertise</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Acquisition & Negotiation</h3>
+                    <p>Complex deal structuring, auction management, and securing film/TV/Foreign rights.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Market Analysis</h3>
+                    <p>Trend forecasting, competitive analysis, and data-driven submissions strategy.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Author Development</h3>
+                    <p>Long-term career strategy, platform building, and editorial guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2>Schedule a Consultation with Chris Anderson</h2>
+            <p>Senior Literary Agent Chris Anderson is ready to discuss your manuscript and career goals. Book a 30-minute introductory call to explore potential partnership.</p>
+            
+            <a href="mailto:candersonwritersleague@gmail.com" class="btn-primary">Email to Schedule</a>
+            
+            <div class="contact-info">
+                <p><strong>Phone:</strong> (734) 274-5497</p>
+                <p><strong>Email:</strong> candersonwritersleague@gmail.com</p>
+                <p><strong>Office:</strong> 1350 6th Ave floor 2 New York, NY 10019</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Writers League. Representation by Chris Anderson.</p>
+    </footer>
+
+</body>
+</html>
